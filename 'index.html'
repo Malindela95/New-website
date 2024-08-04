@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linda Allen Luthuli - Forex Trader & Mentor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #555;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        .section {
+            margin-bottom: 2rem;
+        }
+        .section h2 {
+            color: #333;
+        }
+        .charts {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .chart {
+            flex: 1;
+            min-width: 300px;
+            margin: 1rem;
+            background-color: #fff;
+            padding: 1rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Linda Allen Luthuli</h1>
+        <p>Forex Trader with Four Years of Expertise</p>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#analysis">Trading Analysis</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <div id="about" class="section">
+            <h2>About Me</h2>
+            <p>Hello! I'm Linda Allen Luthuli, a forex trader with four years of expertise in the field. I specialize in providing cutting-edge gold and GBP/USD signals, along with personalized mentorship to help you succeed in the forex market.</p>
+        </div>
+        <div id="services" class="section">
+            <h2>Services</h2>
+            <p>I offer a range of services to cater to both novice and experienced traders, including:</p>
+            <ul>
+                <li>Gold and GBP/USD Signals</li>
+                <li>Personalized Mentorship</li>
+                <li>Market Analysis and Insights</li>
+            </ul>
+        </div>
+        <div id="analysis" class="section">
+            <h2>Trading Analysis</h2>
+            <div class="charts">
+                <div class="chart">
+                    <h3>Gold Chart</h3>
+                    <!-- Placeholder for the Gold trading chart -->
+                    <img src="gold-chart.png" alt="Gold Trading Chart" width="100%">
+                </div>
+                <div class="chart">
+                    <h3>GBP/USD Chart</h3>
+                    <!-- Placeholder for the GBP/USD trading chart -->
+                    <img src="gbpusd-chart.png" alt="GBP/USD Trading Chart" width="100%">
+                </div>
+            </div>
+        </div>
+        <div id="contact" class="section">
+            <h2>Contact</h2>
+            <p>If you're interested in my services or have any questions, feel free to reach out to me:</p>
+            <p>Email: <a href="mailto:linda.luthuli@example.com">linda.luthuli@example.com</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Linda Allen Luthuli. All rights reserved.</p>
+    </footer>
+</body>
+</html>
